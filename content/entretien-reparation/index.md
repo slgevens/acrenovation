@@ -41,4 +41,4 @@ Protégez votre maison en planifiant un entretien régulier ou des réparations.
 
 ---
 
-**AC RENOVATION** - Travaux de couverture toiture, charpente, zinguerie et isolation en Île de France.
+**AC RENOVATION** - Travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France.

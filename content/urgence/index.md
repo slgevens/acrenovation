@@ -18,7 +18,7 @@ Chez **AC Renovation**, nous comprenons l'importance d'une intervention rapide e
 2. **Entretien de charpente**  
    En cas de problème avec votre charpente, nous assurons un diagnostic et des réparations dans les plus brefs délais.
 
-3. **Zinguerie et drainage**
+3. **Zinguerie et drainage**  
    Un système de zinguerie efficace est crucial. Nous intervenons pour réparer ou remplacer les éléments défectueux.
 
 ### Pourquoi choisir AC Renovation ?
@@ -39,4 +39,4 @@ Pour toute demande d'intervention d'urgence, n'hésitez pas à nous contacter au
 
 ---
 
-**AC Renovation** - Travaux de couverture toiture, charpente, zinguerie et isolation en Île de France.
+**AC Renovation** - Travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France.

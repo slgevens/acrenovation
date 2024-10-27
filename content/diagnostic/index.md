@@ -43,4 +43,4 @@ Pour un diagnostic précis et professionnel de votre toiture, contactez-nous dè
 
 ---
 
-**AC RENOVATION** - Travaux de couverture toiture, charpente, zinguerie et isolation en Île de France.
+**AC RENOVATION** - Travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France.

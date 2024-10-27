@@ -10,23 +10,20 @@ markup:
       unsafe: true
 
 params:
-  description: "AC RENOVATION  | Expert en travaux de couverture toiture, charpente, zinguerie et isolation en Île de France."
+  description: "AC RENOVATION  | Expert en travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France."
   openGraph: true
   navbarlogo:
-    image: logos/ac-renovation-lastest-alpha.svg
-    # image: logos/ac-renovation-lastest.svg
+    image: logos/ac-renovation-latest-sigma.svg
     link: /
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
     title: "AC RENOVATION"
-    subtitle: "Couverture | Toiture | Charpente | Zinguerie | Isolation | Expert en travaux de couverture toiture, charpente, zinguerie et isolation en Île de France."
+    subtitle: "Couverture | Toiture | Charpente | Zinguerie | Isolation | Expert en travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France."
     buttontext: +33 7 59 20 00 34
-    # buttonlink: "#contact"
-    buttonlink: "tel:+33759200034"
-    image: logos/ac-renovation-lastest-alpha.svg
-    # image: logos/ac-renovation-lastest.svg
+    # buttonlink: "tel:+33759200034"
+    image: logos/ac-renovation-latest-sigma.svg
 
   navbar:
   - title: AC RENOVATION
@@ -78,8 +75,7 @@ params:
       img: 1
   section5:
     title: Demande d'intervention
-    # subtitle: We'd love to hear from you
-    buttonText: Send Message
+    buttonText: Envoyer
     # action: https://formspree.io/f/<form_id>
     # method: POST
   footer:
