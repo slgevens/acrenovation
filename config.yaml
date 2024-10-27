@@ -1,0 +1,115 @@
+baseURL: http://ac-renovation.com
+languageCode: fr-FR
+title: AC RENOVATION
+theme: hugo-fresh
+disableKinds: [taxonomy]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  description: "AC RENOVATION  | Expert en travaux de couverture toiture, charpente, zinguerie et isolation en Île de France."
+  openGraph: true
+  navbarlogo:
+    image: logos/ac-renovation-lastest-alpha.svg
+    # image: logos/ac-renovation-lastest.svg
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    title: "AC RENOVATION"
+    subtitle: "Couverture | Toiture | Charpente | Zinguerie | Isolation | Expert en travaux de couverture toiture, charpente, zinguerie et isolation en Île de France."
+    buttontext: +33 7 59 20 00 34
+    # buttonlink: "#contact"
+    buttonlink: "tel:+33759200034"
+    image: logos/ac-renovation-lastest-alpha.svg
+    # image: logos/ac-renovation-lastest.svg
+
+  navbar:
+  - title: AC RENOVATION
+    url: /
+  - title: Prestations
+    sublinks:
+    - title: Urgence
+      url: /urgence
+    - title: Diagnostic
+      url: /diagnostic
+    - title: Entretien & Réparation
+      url: /entretien-reparation
+  - title: Actualités
+    url: /actualite
+  section1:
+    title: Nos prestations toitures
+    subtitle: sur rendez-vous ou en urgence
+    tiles:
+      - title: Urgence
+        icon: danger
+        text: Sinistres et/ou événements météorologiques
+        url: /urgence
+        buttonText: Urgence
+      - title: Diagnostic
+        icon: magnifying
+        text: Recherche, analyse, identification et audit
+        url: /diagnostic
+        buttonText: Diagnostic
+      - title: Entretien & Réparation
+        icon: house-reparation
+        text: Entretien et réparation des défauts de toitures
+        url: /entretien-reparation
+        buttonText: Entretien & Réparation
+  section4:
+    title: Ils nous ont fait confiance
+    subtitle: pour toutes leurs urgences, réparations et travaux, voici leur retour
+    clients:
+    - name: Mat SERRANT
+      quote: "Très pro et à l'écoute. Travail soigné avec respect des délais. Merci pour la réactivité."
+      job: Client AC RENOVATION
+      img: 2
+    - name: Jean DUPRAS
+      quote: "Ils sont sérieux et fiables. Ils proposent des solutions adaptées. On est en relation avec une équipe dynamique et à l'écoute."
+      job: Client AC RENOVATION
+      img: 2
+    - name: Sylvie RAY
+      quote: "A l'écoute, avec un vrai suivi des interventions et un travail de qualité. Je recommande en toute confiance."
+      job: Cliente AC RENOVATION
+      img: 1
+  section5:
+    title: Demande d'intervention
+    # subtitle: We'd love to hear from you
+    buttonText: Send Message
+    # action: https://formspree.io/f/<form_id>
+    # method: POST
+  footer:
+    logo: ac-renovation-lastest.svg
+    socialmediatitle: Suivez-nous
+    socialmedia:
+    - link: "mailto:castorbati@gmail.com"
+      icon: reply-all
+    - link: https://www.facebook.com/acrenovationidf/
+      icon: facebook
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: "Nos services"
+        links:
+        - text: Urgence
+          link: /urgence
+        - text: Diagnostic
+          link: /diagnostic
+        - text: Entretien & Réparation
+          link: /entretien-reparation
+      column2:
+        title: Actualités
+        links:
+        - text: Derniers postes
+          link: /actualite
+        - text: Tous les postes
+          link: /actualite
+      column3:
+        title: "Contactez-nous"
+        links:
+        - text: Demande de prestations
+          link: "#contact"
