@@ -30,6 +30,8 @@ params:
     url: /
   - title: Prestations
     sublinks:
+    - title: Interventions
+      url: /interventions
     - title: Urgence
       url: /urgence
     - title: Diagnostic
@@ -42,6 +44,11 @@ params:
     title: Nos prestations toitures
     subtitle: sur rendez-vous ou en urgence
     tiles:
+      - title: Interventions
+        icon: house-reparation
+        text: Notre champ d'intervention pour votre toiture
+        url: /interventions
+        buttonText: Nos interventions
       - title: Urgence
         icon: danger
         text: Sinistres et/ou événements météorologiques
