@@ -21,6 +21,7 @@ params:
   hero:
     title: "AC RENOVATION"
     subtitle: "Couverture | Toiture | Charpente | Zinguerie | Isolation | Expert en travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France."
+    # see themes/hugo-fresh/layouts/partials/hero-body.html to change
     buttontext: +33 7 59 20 00 34
     # buttonlink: "tel:+33759200034"
     image: logos/ac-renovation-latest-sigma.svg
@@ -28,6 +29,20 @@ params:
   navbar:
   - title: AC RENOVATION
     url: /
+  - title: Interventions
+    sublinks:
+    - title: Couverture
+      url: /couverture
+    - title: Toiture
+      url: /toiture
+    - title: Charpente
+      url: /charpente
+    - title: Zinguerie
+      url: /zinguerie
+    - title: Isolation
+      url: /isolation
+    - title: Gouttières
+      url: /gouttieres
   - title: Prestations
     sublinks:
     - title: Interventions
@@ -45,8 +60,8 @@ params:
     subtitle: sur rendez-vous ou en urgence
     tiles:
       - title: Interventions
-        icon: house-reparation
-        text: Notre champ d'intervention pour votre toiture
+        icon: intervention
+        text: Nos champs d'intervention pour votre toiture
         url: /interventions
         buttonText: Nos interventions
       - title: Urgence
@@ -89,8 +104,8 @@ params:
     logo: ac-renovation-lastest.svg
     socialmediatitle: Suivez-nous
     socialmedia:
-    - link: "mailto:castorbati@gmail.com"
-      icon: reply-all
+    - link: "/index.html#contact"
+      icon: inbox
     - link: https://www.facebook.com/acrenovationidf/
       icon: facebook
     bulmalogo: false
@@ -104,6 +119,18 @@ params:
           link: /diagnostic
         - text: Entretien & Réparation
           link: /entretien-reparation
+        - text: Couverture
+          link: /couverture
+        - text: Toiture
+          link: /toiture
+        - text: Charpente
+          link: /charpente
+        - text: Zinguerie
+          link: /zinguerie
+        - text: Isolation
+          link: /isolation
+        - text: Gouttières
+          link: /gouttieres
       column2:
         title: Actualités
         links:
@@ -112,7 +139,13 @@ params:
         - text: Tous les postes
           link: /actualite
       column3:
-        title: "Contactez-nous"
+        title: À propos
         links:
-        - text: Demande de prestations
+        - text: Prendre rendez-vous
           link: "#contact"
+        - text: Mentions légales
+          link: /mentions-legales
+        - text: Politique de confidentialité
+          link: /politique-de-confidentialite
+        - text: CGU
+          link: /cgu

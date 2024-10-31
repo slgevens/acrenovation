@@ -22,7 +22,8 @@ app.post('/send', (req, res) => {
 
     const params = {
         Destination: {
-            ToAddresses: [process.env.EMAILTO],
+            ToAddresses: ["evens@evens.link"],
+            // ToAddresses: [process.env.EMAILTO],
         },
         Message: {
             Body: {
@@ -34,7 +35,8 @@ app.post('/send', (req, res) => {
                 Data: 'ACRENOVATION | Nouveau message de contact',
             },
         },
-        Source: process.env.EMAILFROM,
+        Source: "acrenovation@evens.link",
+        // Source: process.env.EMAILFROM,
     };
 
     ses.sendEmail(params, (error, data) => {

@@ -21,7 +21,7 @@ Un diagnostic de la toiture de votre bien consiste à rechercher et analyser une
 
 | | |
 |:-:|:-:|:-:|
-![Inspection de toiture](/images/illustrations/images/acrenovation-diagnostic-alpha.jpg) | ![Inspection de toiture](/images/illustrations/images/acrenovation-diagnostic-beta.jpg) | ![Inspection de toiture](/images/illustrations/images/acrenovation-diagnostic-eta.jpg)|
+|![Inspection de toiture](/images/illustrations/images/acrenovation-diagnostic-alpha.jpg) | ![Inspection de toiture](/images/illustrations/images/acrenovation-diagnostic-beta.jpg) | ![Inspection de toiture](/images/illustrations/images/acrenovation-diagnostic-eta.jpg)|
 
 ## Notre processus de diagnostic
 
