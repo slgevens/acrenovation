@@ -1,3 +1,121 @@
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+    function onCaptchaSuccess(token) {
+        console.log('CAPTCHA token:', token);
+        const captchaResponse = grecaptcha.getResponse();
+        console.log('CAPTCHA response:', captchaResponse);
+        onSubmit();
+    }
+
+    function onSubmit() {
+        // Reset previous errors
+        document.getElementById('lastnameError').style.display = 'none';
+        document.getElementById('nameError').style.display = 'none';
+        document.getElementById('emailError').style.display = 'none';
+        document.getElementById('phoneError').style.display = 'none';
+        document.getElementById('messageError').style.display = 'none';
+
+        // Get field values
+        const lastname = document.getElementById('lastname').value;
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('visitorEmail').value;
+        const phone = document.getElementById('phone').value;
+        const message = document.getElementById('message').value;
+
+        let isValid = true;
+
+        // Validation: Lastname
+        if (!lastname) {
+            document.getElementById('lastnameError').style.display = 'inline';
+            isValid = false;
+        }
+
+        // Validation: Name
+        if (!name) {
+            document.getElementById('nameError').style.display = 'inline';
+            isValid = false;
+        }
+
+        // Validation: Email
+        if (!email || !validateEmail(email)) {
+            document.getElementById('emailError').style.display = 'inline';
+            isValid = false;
+        }
+
+        // Validation: Phone
+        if (!phone || !validatePhone(phone)) {
+            document.getElementById('phoneError').style.display = 'inline';
+            isValid = false;
+        }
+
+        // Validation: Message
+        if (!message) {
+            document.getElementById('messageError').style.display = 'inline';
+            isValid = false;
+        }
+
+        if (!isValid) {
+            return; // Stop submission if validation fails
+        }
+
+        const captchaResponse = grecaptcha.getResponse();
+        if (!captchaResponse) {
+            alert('Veuillez compléter le CAPTCHA.');
+            return;
+        }
+        const formData = {
+            lastname,
+            name,
+            visitorEmail: email,
+            phone,
+            message,
+            captchaResponse, // Send the captcha response with the form data
+        };
+
+        // Send form data to backend
+        fetch('https://pwls83qfc4.execute-api.eu-west-1.amazonaws.com/default/send', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+            if (data.success) {
+                alert('Votre message a été envoyé avec succès!');
+                document.getElementById('contactForm').reset();
+            } else {
+                alert('Verification CAPTCHA échouée. Veuillez réessayer.');
+            }
+        })
+        .catch(error => {
+            console.error('Erreur:', error);
+            alert('Erreur lors de l\'envoi du message.');
+        });
+    }
+
+    // Validate Email format
+    function validateEmail(email) {
+        const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        if (!regex.test(email)) {
+            console.log('Invalid email format:', email); // Log for debugging
+        }
+        return regex.test(email);
+    }
+
+    // Validate Phone number format (example: French phone number format)
+    function validatePhone(phone) {
+        // Update to allow spaces or dashes, or make it strict for 10 digits
+        const regex = /^[0-9\s\+\(\)-]{10,15}$/; // Allow some flexibility with phone formats
+        if (!regex.test(phone)) {
+            console.log('Invalid phone format:', phone); // Log for debugging
+        }
+        return regex.test(phone);
+    }
+</script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="https://unpkg.com/feather-icons"></script>
 <script src="{{ "js/fresh.js" | relURL }}"></script>

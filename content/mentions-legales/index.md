@@ -10,7 +10,7 @@ description: "Mentions légales | AC RENOVATION"
 
 **Nom ou Raison Sociale** : AC RENOVATION
 
-**Adresse** : 65 RUE DU GENERAL LECLERC 95410 GROSLAY
+**Adresse** : 5 BIS RUE DES GLAISIÈRES 95410 GROSLAY
 
 **Numéro de Téléphone** : +33 7 59 20 00 34
 

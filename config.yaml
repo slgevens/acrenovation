@@ -96,10 +96,10 @@ params:
       job: Cliente AC RENOVATION
       img: 1
   section5:
-    title: Demande d'intervention
+    title: Intervention rapide. Devis gratuit pour vos travaux de couverture, toiture, charpente, zinguerie et isolation.
     buttonText: Envoyer
-    # action: https://formspree.io/f/<form_id>
-    # method: POST
+    action: https://pwls83qfc4.execute-api.eu-west-1.amazonaws.com/default/send
+    method: POST
   footer:
     logo: ac-renovation-lastest.svg
     socialmediatitle: Suivez-nous
@@ -134,9 +134,9 @@ params:
       column2:
         title: Actualités
         links:
-        - text: Derniers postes
+        - text: Derniers articles
           link: /actualite
-        - text: Tous les postes
+        - text: Tous les articles
           link: /actualite
       column3:
         title: À propos

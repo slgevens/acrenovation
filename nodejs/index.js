@@ -1,55 +1,84 @@
+const awsServerlessExpress = require('aws-serverless-express');
 const express = require('express');
+const cors = require('cors');
 const bodyParser = require('body-parser');
 const AWS = require('aws-sdk');
-const cors = require('cors');
-
-const app = express();
-const PORT = process.env.PORT || 3000;
-
+const fetch = require('node-fetch');
+const e = require('express');
+require('dotenv').config();
 require('aws-sdk/lib/maintenance_mode_message').suppress = true;
 
-// Middleware
+const PORT = process.env.PORT || 3000;
+const ses = new AWS.SES({ apiVersion: '2010-12-01' });
+const app = express();
+
+AWS.config.update({
+    // accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    // secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    region: process.env.AWS_REGION
+});
+
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-AWS.config.update({ region: process.env.AWS_REGION });
+app.post('/send', async (req, res) => {
+    console.log('Received request to /send');
+    const { captchaResponse, lastname, name, visitorEmail, phone, message } = req.body;
+    if (!lastname || !name || !visitorEmail || !phone || !message) {
+        return res.status(400).send('Tous les champs doivent être remplis.');
+    }
+    // Verify the reCAPTCHA token
+    try {
+        const response = await fetch(`https://www.google.com/recaptcha/api/siteverify?secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${captchaResponse}`, {
+            method: 'POST',
+        });
+        const data = await response.json();
+        console.log('CAPTCHA verification response:', data);
 
-const ses = new AWS.SES({ apiVersion: '2010-12-01' });
+        if (!data.success || data.score < 0.5) {
+            return res.status(400).send('La vérification du CAPTCHA a échoué.');
+        }
+    } catch (error) {
+        console.error('Error verifying CAPTCHA:', error);
+        return res.status(500).send('Erreur lors de la vérification du CAPTCHA.');
+    }
 
-app.post('/send', (req, res) => {
-    const { lastname, name, email, phone, message } = req.body;
-
+    // Prepare email parameters
+    const contactEmail = process.env.CONTACT_EMAIL;
+    const porteurAffaireEmail = process.env.PORTAFF_EMAIL;
     const params = {
         Destination: {
-            ToAddresses: ["evens@evens.link"],
-            // ToAddresses: [process.env.EMAILTO],
+            ToAddresses: [visitorEmail, contactEmail, porteurAffaireEmail],
         },
         Message: {
             Body: {
                 Text: {
-                    Data: `Nom: ${lastname}\nPrénom: ${name}\nEmail: ${email}\nTéléphone: ${phone}\n\nMessage:\n${message}`,
+                    Data: `Nom: ${lastname}\nPrénom: ${name}\nEmail: ${visitorEmail}\nTéléphone: ${phone}\n\nMessage:\n${message}`,
                 },
             },
             Subject: {
-                Data: 'ACRENOVATION | Nouveau message de contact',
-            },
-        },
-        Source: "acrenovation@evens.link",
-        // Source: process.env.EMAILFROM,
+                Data: 'CASTOR COUVERTURE | Nouveau message de contact',
+            },},
+        Source: process.env.EMAIL_SOURCE,
     };
 
-    ses.sendEmail(params, (error, data) => {
-        if (error) {
-            console.error('Error sending email:', error);
-            return res.status(500).send(error.message);
-        }
-        console.log('Email sent successfully:', data);
-        res.status(200).send('Message envoyé avec succès.');
-    });
+    // Send email
+    try {
+        const emailResponse = await ses.sendEmail(params).promise();
+        console.log('Message envoyé avec succès:', emailResponse);
+        res.status(200).json({ success: true, message: 'Message envoyé avec succès.' });
+    } catch (error) {
+        console.error('Erreur lors de l\'envoi de l\'email: ', error);
+        return res.status(500).json({ success: false, message: 'Erreur lors de l\'envoi de l\'email.' });
+    }
 });
 
-// Start the server
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
-});
+// dev
+//
+// app.listen(PORT, () => {console.log(`Server is running on http://localhost:${PORT}`);});
+
+// lambda
+//
+const server = awsServerlessExpress.createServer(app);
+exports.handler = (event, context) => { awsServerlessExpress.proxy(server, event, context); };

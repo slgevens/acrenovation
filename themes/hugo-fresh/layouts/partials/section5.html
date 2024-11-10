@@ -1,41 +1,53 @@
-{{- $section5   := .Site.Params.section5 }}
+{{- $section5 := .Site.Params.section5 }}
 {{- if eq $section5 true }}
 {{- $section5 = dict "_" "_" }}
 {{- end }}
-{{- $title      := index $section5 "title" | default "Demande d'intervention"}}
-{{- $subtitle   := index $section5 "subtitle" | default "We'd love to hear from you" }}
-{{- $action     := index $section5 "action" }}
-{{- $method     := index $section5 "method" }}
-{{- $buttonText := index $section5 "buttontext" | default "Envoyer" }}
+{{- $title := index $section5 "title" | default "Demande d'intervention"}}
+{{- $subtitle := index $section5 "subtitle" | default "We'd love to hear from you" }}
 <section class="section section-light-grey is-medium" id="section5">
   <div class="container">
     <div class="title-wrapper has-text-centered">
       <h2 id="contact" class="title is-2 is-spaced">{{ $title }}</h2>
-      <h3 class="subtitle is-5 is-muted">Par e-mail ou téléphone <a href="tel:+33759200034">+33 7 59 20 00 34</a>, <a class="fa fa-whatsapp" aria-hidden="true" href="https://wa.me/33759200034"></a></a></h3>
+      <h3 class="subtitle is-5 is-muted">Par e-mail ou téléphone <a href="tel:+33759200034">+33 7 59 20 00 34</a>, <a
+          class="fa fa-whatsapp" aria-hidden="true" href="https://wa.me/33759200034"></a></h3>
       <div class="divider is-centered"></div>
     </div>
     <div class="content-wrapper">
       <div class="columns">
         <div class="column is-6 is-offset-3">
-          <form{{ with $action }} action="{{ . }}"{{end}}{{ with $method }} method="{{ . }}"{{end}}>
+          <form id="contactForm" action="https://pwls83qfc4.execute-api.eu-west-1.amazonaws.com/default/send" method="POST">
             <div class="columns is-multiline">
               <div class="column is-6">
-                <input class="input is-medium" name="lastname" type="text" placeholder="Nom">
+                <label for="lastname"></label>
+                <input class="input is-medium" id="lastname" name="lastname" type="text" placeholder="Nom" required>
+                <span id="lastnameError" style="color: red; display: none;">Ce champ est obligatoire</span>
               </div>
               <div class="column is-6">
-                <input class="input is-medium" name="name" type="text" placeholder="Prénom">
+                <label for="name"></label>
+                <input class="input is-medium" id="name" name="name" type="text" placeholder="Prénom" required>
+                <span id="nameError" style="color: red; display: none;">Ce champ est obligatoire</span>
               </div>
               <div class="column is-6">
-                <input class="input is-medium" name="email" type="email" placeholder="Email">
+                <label for="visitorEmail"></label>
+                <input class="input is-medium" id="visitorEmail" name="visitorEmail" type="email" placeholder="Email"
+                  required>
+                <span id="emailError" style="color: red; display: none;">Veuillez entrer un email valide</span>
               </div>
               <div class="column is-6">
-                <input class="input is-medium" name="phone" type="tel" placeholder="Numéro de téléphone">
+                <label for="phone"></label>
+                <input class="input is-medium" id="phone" name="phone" type="tel" placeholder="Numéro de téléphone"
+                  required>
+                <span id="phoneError" style="color: red; display: none;">Veuillez entrer un numéro de téléphone
+                  valide</span>
               </div>
               <div class="column is-12">
-                <textarea class="textarea" name="message" rows="10" placeholder="Décrivez votre besoin..."></textarea>
+                <label for="message"></label>
+                <textarea class="textarea" id="message" name="message" rows="10" placeholder="Décrivez votre besoin..."
+                  required></textarea>
+                <span id="messageError" style="color: red; display: none;">Le message ne peut pas être vide</span>
               </div>
               <div class="form-footer has-text-centered mt-10">
-                <button class="button cta is-large primary-btn raised is-clear">{{ $buttonText }}</button>
+                <button class="button cta is-large primary-btn raised is-clear g-recaptcha" data-sitekey="6LcgNHgqAAAAAFMC4dL0SKh3uPSZyyM2oHRz3WZE" data-callback="onSubmit" data-badge="bottomleft">Envoyer</button>
               </div>
             </div>
           </form>
