@@ -113,6 +113,8 @@ params:
       column1:
         title: "Nos services"
         links:
+        - text: Interventions
+          link: /Interventions
         - text: Urgence
           link: /urgence
         - text: Diagnostic
