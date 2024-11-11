@@ -106,8 +106,8 @@ params:
     socialmedia:
     - link: "/index.html#contact"
       icon: inbox
-    - link: https://www.facebook.com/acrenovationidf/
-      icon: facebook
+    # - link: https://www.facebook.com/acrenovationidf/
+    #   icon: facebook
     bulmalogo: false
     quicklinks:
       column1:
