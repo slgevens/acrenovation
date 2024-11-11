@@ -43,7 +43,7 @@ params:
       url: /isolation
     - title: Gouttières
       url: /gouttieres
-  - title: Prestations
+  - title: Services
     sublinks:
     - title: Interventions
       url: /interventions
