@@ -31,9 +31,8 @@ Nous avons également l'expertise nécessaire pour intervenir sur les toits vert
 
 | | |
 |:-:|:-:|:-:|
-|![Couverture](/images/illustrations/images/ac-renovation-couverture-1.jpg) | ![Couverture](/images/illustrations/images/ac-renovation-couverture-2.jpg) | ![Couverture](/images/illustrations/images/ac-renovation-couverture-3.jpg)|
-| <a href="https://fr.freepik.com/photos-gratuite/plan-rapproche-faible-angle-vertical-du-toit-noir-immeuble_9931749.htm#fromView=search&page=1&position=1&uuid=eaa056e6-592d-4784-86fd-33d985a4861b">Freepik</a> | <a href="https://pixabay.com/fr//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2587752">Pixabay</a> | <a href="https://unsplash.com/photos/a-house-with-a-yard-arl6vrQYp-E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-   |
+![Réparation et entretien sur toits](/images/illustrations/images/acrenovation-entretien-reparation-7.jpg) | ![Réparation et entretien sur toits](/images/illustrations/images/acrenovation-entretien-reparation-8.jpg) | ![Réparation et entretien sur toits](/images/illustrations/images/acrenovation-entretien-reparation-9.jpg)|
+
 
 ## Estimation claire et respect de votre budget
 

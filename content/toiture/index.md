@@ -8,8 +8,7 @@ description: "Toiture - Solutions Complètes pour Votre Couverture"
 ---
 | | |
 |:-:|:-:|:-:|
-|![Charpente](/images/illustrations/images/ac-renovation-charpente-1.jpg) | ![Couverture](/images/illustrations/images/ac-renovation-couverture-2.jpg) | ![Charpente](/images/illustrations/images/ac-renovation-charpente-3.jpg)|
-|<a href="https://fr.freepik.com/photos-gratuite/vue-face-construction-toit-lumiere-du-jour_11106773.htm#fromView=search&page=1&position=4&uuid=0e67f594-680c-48fe-bc83-45867f443ccf">Freepik</a> | <a href="https://pixabay.com/fr//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2587752">Pixabay</a> | <a href="https://fr.freepik.com/photos-gratuite/tas-planches-bois_11106921.htm#fromView=search&page=1&position=40&uuid=49022abe-26cc-44a2-a03b-90bae898cddd">Freepik</a> |
+![Inspection de toiture](/images/illustrations/images/acrenovation-diagnostic-alpha.jpg) | ![Inspection de toiture](/images/illustrations/images/acrenovation-diagnostic-beta.jpg) | ![Inspection de toiture](/images/illustrations/images/acrenovation-diagnostic-eta.jpg)|
 
 
 ## La pose de velux et fenêtres de toit

@@ -36,9 +36,7 @@ Si votre gouttière fuit ou si certaines de ses pièces sont abîmées, il est c
 
 | | |
 |:-:|:-:|:-:|
-|![Charpente](/images/illustrations/images/ac-renovation-gouttieres-1.jpg) | ![Couverture](/images/illustrations/images/ac-renovation-couverture-2.jpg) | ![Couverture](/images/illustrations/images/ac-renovation-couverture-1.jpg)|
-|<a href="https://pixabay.com/fr//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2434467">Pixabay</a> | <a href="https://pixabay.com/fr//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2587752">Pixabay</a> | <a href="https://fr.freepik.com/photos-gratuite/plan-rapproche-faible-angle-vertical-du-toit-noir-immeuble_9931749.htm#fromView=search&page=1&position=1&uuid=eaa056e6-592d-4784-86fd-33d985a4861b">Freepik</a> |
-
+![Réparation et entretien sur toits](/images/illustrations/images/acrenovation-entretien-reparation-1.jpg) | ![Réparation et entretien sur toits](/images/illustrations/images/acrenovation-entretien-reparation-2.jpg) | ![Réparation et entretien sur toits](/images/illustrations/images/acrenovation-entretien-reparation-3.jpg)|
 
 ## Pourquoi choisir AC RENOVATION ?
 
