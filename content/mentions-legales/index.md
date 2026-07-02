@@ -8,7 +8,7 @@ description: "Mentions légales | AC RENOVATION"
 
 ## Identité de l'éditeur
 
-**Nom ou Raison Sociale** : AC RENOVATION
+**Nom ou Raison Sociale** : AC RENOVATION/MONSIEUR ALEXY CLERGE
 
 **Adresse** : 5 BIS RUE DES GLAISIÈRES 95410 GROSLAY
 
