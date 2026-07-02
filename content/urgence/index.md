@@ -3,7 +3,7 @@ title: "Urgence | AC Renovation"
 sidebar: false # or false to display the sidebar
 sidebarlogo: ac-renovation # From (static/images/logo/)
 include_footer: true # or false to display the footer
-description: "Interventions d'urgence en couverture toiture et isolation. Contactez AC Renovation pour des réparations rapides en Île de France."
+description: "Urgence toiture en Île-de-France — intervention rapide 7j/7 pour fuite, tempête ou sinistre. AC RENOVATION, couvreur urgentiste à Paris et région parisienne."
 tags: [Urgence]
 ---
 ## Besoin d'une intervention rapide ?

@@ -4,7 +4,7 @@ sidebar: false
 sidebarlogo: ac-renovation
 include_footer: true
 tags: [Gouttières]
-description: "Gouttières - Entretien et réparation pour une protection efficace de votre maison"
+description: "Pose et réparation de gouttières en Île-de-France — nettoyage, remplacement, gouttières zinc ou alu. AC RENOVATION intervient à Paris et région parisienne."
 ---
 
 ## Nettoyage de vos gouttières en toute saison

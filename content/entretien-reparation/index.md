@@ -1,8 +1,9 @@
 ---
 title: "Entretien et Réparation | AC RENOVATION"
-sidebar: false # or false to display the sidebar
-sidebarlogo: ac-renovation # From (static/images/logo/)
-include_footer: true # or false to display the footer
+sidebar: false
+sidebarlogo: ac-renovation
+include_footer: true
+description: "Entretien et réparation de toiture en Île-de-France — fuite, tuile cassée, étanchéité. AC RENOVATION intervient rapidement à Paris et région parisienne."
 ---
 
 ## Réparation sur les toits industriels

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://ac-renovation.com/sitemap.xml

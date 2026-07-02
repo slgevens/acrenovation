@@ -4,7 +4,7 @@ sidebar: false
 sidebarlogo: ac-renovation
 include_footer: true
 tags: [Toiture]
-description: "Toiture - Solutions Complètes pour Votre Couverture"
+description: "Rénovation et réparation de toiture en Île-de-France — pose Velux, bac acier, étanchéité. AC RENOVATION intervient à Paris et région parisienne."
 ---
 | | |
 |:-:|:-:|:-:|

@@ -4,7 +4,7 @@ sidebar: false # or false to display the sidebar
 sidebarlogo: ac-renovation # From (static/images/logo/)
 include_footer: true # or false to display the footer
 tags: [charpente]
-description: "Charpente - traitement et entretien professionnel pour une structure durable."
+description: "Charpente en Île-de-France — traitement, rénovation et entretien de charpente bois par AC RENOVATION. Intervention rapide à Paris et région parisienne."
 ---
 
 ## Traitement et entretien professionnel pour une structure durable.

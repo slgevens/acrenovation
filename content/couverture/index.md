@@ -4,7 +4,7 @@ sidebar: false
 sidebarlogo: ac-renovation
 include_footer: true
 tags: [Couverture]
-description: "Couverture - Votre artisan couvreur intervenant dans toute l'Île-de-France"
+description: "Artisan couvreur en Île-de-France — pose, réparation et rénovation de couverture à Paris et région parisienne. Devis gratuit."
 ---
 
 ## Votre artisan couvreur intervenant dans toute l'Île-de-France

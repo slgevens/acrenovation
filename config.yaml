@@ -10,7 +10,7 @@ markup:
       unsafe: true
 
 params:
-  description: "AC RENOVATION  | Expert en travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France."
+  description: "AC RENOVATION — Artisan couvreur en Île-de-France. Couverture, toiture, charpente, zinguerie, isolation et gouttières à Paris et région parisienne. Devis gratuit."
   openGraph: true
   navbarlogo:
     image: logos/ac-renovation-latest-sigma.svg

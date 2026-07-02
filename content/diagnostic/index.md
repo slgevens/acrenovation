@@ -4,7 +4,7 @@ sidebar: false # or false to display the sidebar
 sidebarlogo: ac-renovation # From (static/images/logo/)
 include_footer: true # or false to display the footer
 tags: [Diagnostic]
-description: "Diagnostic professionnel pour vos travaux de toiture. AC RENOVATION identifie les problèmes et propose des solutions adaptées."
+description: "Diagnostic toiture en Île-de-France — inspection professionnelle, détection de fuites et audit complet par AC RENOVATION à Paris et région parisienne."
 ---
 
 # Diagnostic de votre toiture

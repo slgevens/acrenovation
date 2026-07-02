@@ -4,7 +4,7 @@ sidebar: false
 sidebarlogo: ac-renovation
 include_footer: true
 tags: [Zinguerie]
-description: "Zinguerie - La toiture en zinc joint debout : un choix esthétique et durable"
+description: "Zinguerie en Île-de-France — pose et réparation de toiture zinc, gouttières, solins. AC RENOVATION, artisan zingueur à Paris et région parisienne."
 ---
 
 ## Un choix prisé pour les projets contemporains

@@ -1,0 +1,47 @@
+{{ template "_internal/google_analytics.html" . }}
+{{ if eq .Site.Params.openGraph true }}
+{{ template "_internal/opengraph.html" . }}
+{{ end }}
+
+{{- $desc := "" -}}
+{{- if .Params.description -}}
+  {{- $desc = .Params.description -}}
+{{- else if .Site.Params.description -}}
+  {{- $desc = .Site.Params.description -}}
+{{- end -}}
+
+<meta name="description" content="{{ $desc }}" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<link rel="canonical" href="{{ .Permalink }}" />
+
+<!-- LocalBusiness structured data for local SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "name": "AC RENOVATION",
+  "image": "{{ .Site.BaseURL }}images/logos/ac-renovation-latest-sigma.svg",
+  "url": "{{ .Site.BaseURL }}",
+  "telephone": "+33759200034",
+  "priceRange": "€€",
+  "description": "Expert en travaux de couverture, toiture, charpente, zinguerie et isolation en Île-de-France.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Île-de-France",
+    "addressCountry": "FR"
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Île-de-France"
+  },
+  "serviceType": ["Couverture", "Toiture", "Charpente", "Zinguerie", "Isolation", "Gouttières", "Urgence toiture"],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "08:00",
+    "closes": "19:00"
+  }
+}
+</script>
