@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://ac-renovation.com/sitemap.xml
+Sitemap: https://www.castor-couverture.fr/sitemap.xml
