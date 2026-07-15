@@ -24,6 +24,9 @@ Et bien d'autres... Si vous êtes dans ces zones, nous sommes là pour vous aide
 
 ### Derniers articles
 
+#### - [**Rénovation de lucarne à Saint-Denis (93)** - 2 Juillet 2026](../2026-07-02-renovation-lucarne-saint-denis)
+Nettoyage, rénovation et mise en peinture d'une lucarne à **Saint-Denis** en Seine-Saint-Denis.
+
 #### - [**Réparation de cheminée à Aulnay-sous-Bois (93)** - 1er Juillet 2026](../2026-07-01-reparation-cheminee-aulnay-sous-bois)
 Réparation complète d'une cheminée à **Aulnay-sous-Bois** — ragréage, rejointoiement et mise en peinture pour restaurer l'étanchéité et protéger la toiture des infiltrations.
 
