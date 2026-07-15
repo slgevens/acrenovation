@@ -24,6 +24,9 @@ Et bien d'autres... Si vous êtes dans ces zones, nous sommes là pour vous aide
 
 ### Derniers articles
 
+#### - [**Réparation de cheminée à Aulnay-sous-Bois (93)** - 1er Juillet 2026](../2026-07-01-reparation-cheminee-aulnay-sous-bois)
+Réparation complète d'une cheminée à **Aulnay-sous-Bois** — ragréage, rejointoiement et mise en peinture pour restaurer l'étanchéité et protéger la toiture des infiltrations.
+
 #### - [**Isolation de toiture par l'extérieur à Sevran (93)** - 15 Juin 2026](../2026-06-15-isolation-toiture-sevran)
 Dépose des tuiles, nettoyage des déjections de rongeurs, pose de laine de verre 200mm, écran pare-vapeur et repose des tuiles sur une maison individuelle à **Sevran** en Seine-Saint-Denis.
 
