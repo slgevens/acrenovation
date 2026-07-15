@@ -1,0 +1,65 @@
+{{- $footer      := .Site.Params.footer }}
+{{- $logo        := index $footer "logo" }}
+{{- $quickLinks  := index $footer "quicklinks" }}
+{{- $socialMedia := index $footer "socialmedia" }}
+{{- $bulmaLogo   := index $footer "bulmalogo" }}
+{{- $socialMediaTitle    := index $footer "socialmediatitle" }}
+<footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="footer-logo">
+          <img src="{{ printf "images/logos/%s" $logo | relURL }}">
+        </div>
+      </div>
+      {{- range $quickLinks }}
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>{{ .title }}</h3>
+            </div>
+            <ul class="link-list">
+              {{- range .links }}
+              <li>
+                <a href="{{ .link }}">
+                  {{ .text }}
+                </a>
+              </li>
+              {{- end }}
+            </ul>
+          </div>
+        </div>
+      {{- end }}
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+            <h3>{{ $socialMediaTitle }}</h3>
+            <nav class="level is-mobile">
+              <div class="level-left">
+                {{- range $socialMedia }}
+                <a class="level-item" href="{{ .link }}">
+                  <span class="icon">
+                    {{- if eq .icon "tiktok" }}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="14" height="14" fill="currentColor">
+                      <path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3v178.8A162.6 162.6 0 1 1 185 188.3v89.2a74.6 74.6 0 1 0 52.2 71.2V0h88a121 121 0 0 0 1.9 22.2A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/>
+                    </svg>
+                    {{- else }}
+                    <i class="fa fa-{{ .icon }}"></i>
+                    {{- end }}
+                  </span>
+                </a>
+                {{- end }}
+              </div>
+            </nav>
+
+            {{- if $bulmaLogo }}
+            <a href="https://bulma.io" target="_blank">
+              <img src="{{ "images/logos/made-with-bulma.png" | relURL }}" alt="Made with Bulma" width="128" height="24">
+            </a>
+            {{- end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
