@@ -3,11 +3,11 @@ title: "Conditions générales d'utilisation"
 sidebar: false
 sidebarlogo: ac-renovation
 include_footer: true
-description: "Conditions générales d'utilisation | AC RENOVATION"
+description: "Conditions générales d'utilisation | CASTOR COUVERTURE"
 ---
 ## 1. Présentation du site
 
-Le site **AC RENOVATION**, accessible à l'adresse [www.ac-renovation.fr](http://www.ac-renovation.fr), est un site dédié à la présentation des services de l'entreprise **AC RENOVATION**.
+Le site **CASTOR COUVERTURE**, accessible à l'adresse [www.castor-couverture.fr](http://www.castor-couverture.fr), est un site dédié à la présentation des services de l'entreprise **CASTOR COUVERTURE**.
 
 ## 2. Acceptation des conditions générales d'utilisation (CGU)
 
@@ -15,7 +15,7 @@ L'utilisation du site implique l'acceptation pleine et entière des présentes c
 
 ## 3. Services proposés
 
-Le site a pour objectif de fournir des informations concernant les services offerts par **AC RENOVATION**, notamment :
+Le site a pour objectif de fournir des informations concernant les services offerts par **CASTOR COUVERTURE**, notamment :
 - Rénovation de toiture
 - Isolation
 - Zinguerie
@@ -23,15 +23,15 @@ Le site a pour objectif de fournir des informations concernant les services offe
 
 ## 4. Propriété intellectuelle
 
-Tous les éléments du site, y compris les textes, images, logos et graphiques, sont protégés par le droit de la propriété intellectuelle. Toute reproduction ou représentation, totale ou partielle, du site ou de ses éléments est interdite sans l'autorisation préalable de **AC RENOVATION**.
+Tous les éléments du site, y compris les textes, images, logos et graphiques, sont protégés par le droit de la propriété intellectuelle. Toute reproduction ou représentation, totale ou partielle, du site ou de ses éléments est interdite sans l'autorisation préalable de **CASTOR COUVERTURE**.
 
 ## 5. Responsabilité
 
-**AC RENOVATION** s'efforce de fournir des informations précises et à jour sur le site. Cependant, elle ne saurait être tenue responsable des erreurs, omissions ou résultats pouvant découler d'une utilisation incorrecte des informations fournies. L'utilisateur est responsable de l'utilisation des informations disponibles sur le site.
+**CASTOR COUVERTURE** s'efforce de fournir des informations précises et à jour sur le site. Cependant, elle ne saurait être tenue responsable des erreurs, omissions ou résultats pouvant découler d'une utilisation incorrecte des informations fournies. L'utilisateur est responsable de l'utilisation des informations disponibles sur le site.
 
 ## 6. Liens hypertextes
 
-Le site peut contenir des liens vers d'autres sites. **AC RENOVATION** ne peut être tenue responsable du contenu de ces sites externes et de l'utilisation qui peut en être faite par l'utilisateur.
+Le site peut contenir des liens vers d'autres sites. **CASTOR COUVERTURE** ne peut être tenue responsable du contenu de ces sites externes et de l'utilisation qui peut en être faite par l'utilisateur.
 
 ## 7. Données personnelles
 

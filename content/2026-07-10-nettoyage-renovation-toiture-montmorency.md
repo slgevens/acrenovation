@@ -1,7 +1,7 @@
 ---
 title: "Nettoyage et rénovation de toiture à Montmorency (95)"
 date: 2026-07-10
-description: "Nettoyage haute pression, rénovation et mise en peinture manuelle des tuiles à Montmorency dans le Val d'Oise — intervention AC RENOVATION."
+description: "Nettoyage haute pression, rénovation et mise en peinture manuelle des tuiles à Montmorency dans le Val d'Oise — intervention CASTOR COUVERTURE."
 tags: [Nettoyage, Toiture, Peinture, Montmorency, Val-d-Oise]
 sidebar: false
 include_footer: true
@@ -42,4 +42,4 @@ Votre toiture a besoin d'un nettoyage ou d'une rénovation en Île-de-France ? C
 
 ---
 
-**AC RENOVATION** — Couverture, toiture, isolation et zinguerie en Île-de-France.
+**CASTOR COUVERTURE** — Couverture, toiture, isolation et zinguerie en Île-de-France.

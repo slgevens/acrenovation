@@ -1,10 +1,10 @@
 ---
-title: "Diagnostic | AC RENOVATION"
+title: "Diagnostic | CASTOR COUVERTURE"
 sidebar: false # or false to display the sidebar
 sidebarlogo: ac-renovation # From (static/images/logo/)
 include_footer: true # or false to display the footer
 tags: [Diagnostic]
-description: "Diagnostic toiture en Île-de-France — inspection professionnelle, détection de fuites et audit complet par AC RENOVATION à Paris et région parisienne."
+description: "Diagnostic toiture en Île-de-France — inspection professionnelle, détection de fuites et audit complet par CASTOR COUVERTURE à Paris et région parisienne."
 ---
 
 # Diagnostic de votre toiture
@@ -13,7 +13,7 @@ Professionnels, particuliers, votre toiture est un élément capital de votre bi
 
 ## Pourquoi un diagnostic est-il essentiel ?
 
-Un diagnostic approfondi de votre toiture est crucial pour garantir sa durabilité et prévenir des problèmes majeurs. Chez **AC RENOVATION**, nous effectuons des diagnostics complets pour identifier les défaillances potentielles et vous fournir des solutions adaptées.
+Un diagnostic approfondi de votre toiture est crucial pour garantir sa durabilité et prévenir des problèmes majeurs. Chez **CASTOR COUVERTURE**, nous effectuons des diagnostics complets pour identifier les défaillances potentielles et vous fournir des solutions adaptées.
 
 Un diagnostic de la toiture de votre bien consiste à rechercher et analyser une partie ou sa totalité afin identifier l’origine d’un problème et lister tous les éléments devent être restaurés par ordre de priorité.
 
@@ -43,4 +43,4 @@ Pour un diagnostic précis et professionnel de votre toiture, contactez-nous dè
 
 ---
 
-**AC RENOVATION** - Travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France.
+**CASTOR COUVERTURE** — Travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France.

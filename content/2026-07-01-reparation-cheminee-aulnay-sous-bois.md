@@ -1,7 +1,7 @@
 ---
 title: "Réparation de cheminée à Aulnay-sous-Bois (93)"
 date: 2026-07-01
-description: "Réparation complète d'une cheminée à Aulnay-sous-Bois en Seine-Saint-Denis — ragréage, étanchéité et mise en peinture par AC RENOVATION."
+description: "Réparation complète d'une cheminée à Aulnay-sous-Bois en Seine-Saint-Denis — ragréage, étanchéité et mise en peinture par CASTOR COUVERTURE."
 tags: [Cheminée, Zinguerie, Aulnay-sous-Bois, Seine-Saint-Denis]
 sidebar: false
 include_footer: true
@@ -45,4 +45,4 @@ Vous avez une cheminée fissurée ou une toiture qui nécessite une intervention
 
 ---
 
-**AC RENOVATION** — Couverture, toiture, isolation et zinguerie en Île-de-France.
+**CASTOR COUVERTURE** — Couverture, toiture, isolation et zinguerie en Île-de-France.

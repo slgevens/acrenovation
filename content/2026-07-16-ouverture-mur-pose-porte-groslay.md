@@ -1,7 +1,7 @@
 ---
 title: "Ouverture de mur et pose de porte PVC à Groslay (95)"
 date: 2026-07-16
-description: "Percement de mur et pose d'une porte PVC à Groslay dans le Val d'Oise — ouverture, dépose maçonnerie et installation porte par AC RENOVATION."
+description: "Percement de mur et pose d'une porte PVC à Groslay dans le Val d'Oise — ouverture, dépose maçonnerie et installation porte par CASTOR COUVERTURE."
 tags: [Ouverture, Porte PVC, Maçonnerie, Groslay, Val-d-Oise]
 sidebar: false
 include_footer: true
@@ -44,4 +44,4 @@ Vous avez un projet d'ouverture ou de pose de porte en Île-de-France ? Contacte
 
 ---
 
-**AC RENOVATION** — Couverture, toiture, isolation et zinguerie en Île-de-France.
+**CASTOR COUVERTURE** — Couverture, toiture, isolation et zinguerie en Île-de-France.

@@ -1,5 +1,5 @@
 ---
-title: "Nos interventions | AC RENOVATION"
+title: "Nos interventions | CASTOR COUVERTURE"
 sidebar: false # or false to display the sidebar
 sidebarlogo: ac-renovation # From (static/images/logo/)
 include_footer: true # or false to display the footer
@@ -91,4 +91,4 @@ Pour une intervention rapide et professionnel sur votre toiture, contactez-nous 
 
 ---
 
-**AC RENOVATION** - Travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France.
+**CASTOR COUVERTURE** — Travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France.

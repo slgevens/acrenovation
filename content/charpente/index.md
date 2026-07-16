@@ -1,15 +1,15 @@
 ---
-title: "Charpente | AC RENOVATION"
+title: "Charpente | CASTOR COUVERTURE"
 sidebar: false # or false to display the sidebar
 sidebarlogo: ac-renovation # From (static/images/logo/)
 include_footer: true # or false to display the footer
 tags: [charpente]
-description: "Charpente en Île-de-France — traitement, rénovation et entretien de charpente bois par AC RENOVATION. Intervention rapide à Paris et région parisienne."
+description: "Charpente en Île-de-France — traitement, rénovation et entretien de charpente bois par CASTOR COUVERTURE. Intervention rapide à Paris et région parisienne."
 ---
 
 ## Traitement et entretien professionnel pour une structure durable.
 
-Lorsque vous entreprenez des travaux d’isolation pour votre logement, il est essentiel de porter une attention particulière à l'état de votre charpente. Chez AC RENOVATION, nos techniciens qualifiés effectuent une vérification minutieuse de l’état des bois de votre charpente. Cette étape cruciale garantit non seulement la solidité de votre structure, mais aussi la sécurité de votre habitation.
+Lorsque vous entreprenez des travaux d’isolation pour votre logement, il est essentiel de porter une attention particulière à l'état de votre charpente. Chez CASTOR COUVERTURE, nos techniciens qualifiés effectuent une vérification minutieuse de l’état des bois de votre charpente. Cette étape cruciale garantit non seulement la solidité de votre structure, mais aussi la sécurité de votre habitation.
 
 ## Prévention et traitement des dangers
 
@@ -23,7 +23,7 @@ Nos professionnels expérimentés s'attaquent d'abord à la saleté et à la pou
 
 ## Une équipe de professionnels à votre service
 
-Votre charpente est envahie d'insectes xylophages ? Ne laissez pas ce problème s'aggraver ! Nous mettons tout notre savoir-faire et nos compétences au service de la santé de votre charpente. Avec AC RENOVATION, vous bénéficiez d'un service de qualité, garantissant votre satisfaction à chaque étape du processus.
+Votre charpente est envahie d'insectes xylophages ? Ne laissez pas ce problème s'aggraver ! Nous mettons tout notre savoir-faire et nos compétences au service de la santé de votre charpente. Avec CASTOR COUVERTURE, vous bénéficiez d'un service de qualité, garantissant votre satisfaction à chaque étape du processus.
 
 | | |
 |:-:|:-:|:-:|
@@ -35,4 +35,4 @@ Pour un diagnostic précis et professionnel de votre toiture, contactez-nous dè
 
 ---
 
-**AC RENOVATION** - Travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France.
+**CASTOR COUVERTURE** — Travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France.

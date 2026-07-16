@@ -3,7 +3,7 @@ title: "Mentions légales"
 sidebar: false
 sidebarlogo: ac-renovation
 include_footer: true
-description: "Mentions légales | AC RENOVATION"
+description: "Mentions légales | CASTOR COUVERTURE"
 ---
 
 ## Identité de l'éditeur

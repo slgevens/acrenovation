@@ -1,7 +1,7 @@
 ---
 title: "Rénovation de lucarne à Saint-Denis (93)"
 date: 2026-07-02
-description: "Rénovation complète d'une lucarne à Saint-Denis en Seine-Saint-Denis — nettoyage, réfection et mise en peinture par AC RENOVATION."
+description: "Rénovation complète d'une lucarne à Saint-Denis en Seine-Saint-Denis — nettoyage, réfection et mise en peinture par CASTOR COUVERTURE."
 tags: [Lucarne, Couverture, Saint-Denis, Seine-Saint-Denis]
 sidebar: false
 include_footer: true
@@ -41,4 +41,4 @@ Vous avez une lucarne ou une toiture à rénover en Île-de-France ? Contactez-n
 
 ---
 
-**AC RENOVATION** — Couverture, toiture, isolation et zinguerie en Île-de-France.
+**CASTOR COUVERTURE** — Couverture, toiture, isolation et zinguerie en Île-de-France.

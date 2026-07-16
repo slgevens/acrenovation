@@ -3,7 +3,7 @@ title: "Urgence | AC Renovation"
 sidebar: false # or false to display the sidebar
 sidebarlogo: ac-renovation # From (static/images/logo/)
 include_footer: true # or false to display the footer
-description: "Urgence toiture en Île-de-France — intervention rapide 7j/7 pour fuite, tempête ou sinistre. AC RENOVATION, couvreur urgentiste à Paris et région parisienne."
+description: "Urgence toiture en Île-de-France — intervention rapide 7j/7 pour fuite, tempête ou sinistre. CASTOR COUVERTURE, couvreur urgentiste à Paris et région parisienne."
 tags: [Urgence]
 ---
 ## Besoin d'une intervention rapide ?
@@ -39,4 +39,4 @@ Pour toute demande d'intervention d'urgence, n'hésitez pas à nous contacter au
 
 ---
 
-**AC Renovation** - Travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France.
+**CASTOR COUVERTURE** — Travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France.

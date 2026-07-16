@@ -3,10 +3,10 @@ title: "Politique de confidentialité"
 sidebar: false
 sidebarlogo: ac-renovation
 include_footer: true
-description: "Politique de confidentialité | AC RENOVATION"
+description: "Politique de confidentialité | CASTOR COUVERTURE"
 ---
 
-Chez **AC RENOVATION**, accessible à [www.ac-renovation.fr](http://www.ac-renovation.fr), nous nous engageons à protéger la vie privée de nos utilisateurs. Cette politique de confidentialité décrit les informations que nous collectons, comment nous les utilisons et comment nous les protégeons.
+Chez **CASTOR COUVERTURE**, accessible à [www.castor-couverture.fr](http://www.castor-couverture.fr), nous nous engageons à protéger la vie privée de nos utilisateurs. Cette politique de confidentialité décrit les informations que nous collectons, comment nous les utilisons et comment nous les protégeons.
 
 ## 1. Informations Collectées
 

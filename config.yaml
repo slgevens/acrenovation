@@ -1,6 +1,6 @@
 baseURL: https://www.castor-couverture.fr
 languageCode: fr-FR
-title: AC RENOVATION
+title: CASTOR COUVERTURE
 theme: hugo-fresh
 disableKinds: [taxonomy]
 
@@ -10,24 +10,24 @@ markup:
       unsafe: true
 
 params:
-  description: "AC RENOVATION — Artisan couvreur en Île-de-France. Couverture, toiture, charpente, zinguerie, isolation et gouttières à Paris et région parisienne. Devis gratuit."
+  description: "CASTOR COUVERTURE — Artisan couvreur en Île-de-France. Couverture, toiture, charpente, zinguerie, isolation et gouttières à Paris et région parisienne. Devis gratuit."
   openGraph: true
   navbarlogo:
-    image: logos/ac-renovation-latest-sigma.svg
+    image: logos/castor-couverture/castor-couverture-horizontal-light.svg
     link: /
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
-    title: "AC RENOVATION"
+    title: "CASTOR COUVERTURE"
     subtitle: "Couverture | Toiture | Charpente | Zinguerie | Isolation | Expert en travaux de couverture, toiture, charpente, zinguerie et isolation en Île de France."
     # see themes/hugo-fresh/layouts/partials/hero-body.html to change
     buttontext: +33 7 59 20 00 34
     # buttonlink: "tel:+33759200034"
-    image: logos/ac-renovation-latest-sigma.svg
+    image: logos/castor-couverture/castor-couverture-horizontal-light.svg
 
   navbar:
-  - title: AC RENOVATION
+  - title: CASTOR COUVERTURE
     url: /
   - title: Interventions
     sublinks:
@@ -85,15 +85,15 @@ params:
     clients:
     - name: Mat SERRANT
       quote: "Très pro et à l'écoute. Travail soigné avec respect des délais. Merci pour la réactivité."
-      job: Client AC RENOVATION
+      job: Client CASTOR COUVERTURE
       img: 2
     - name: Jean DUPRAS
       quote: "Ils sont sérieux et fiables. Ils proposent des solutions adaptées. On est en relation avec une équipe dynamique et à l'écoute."
-      job: Client AC RENOVATION
+      job: Client CASTOR COUVERTURE
       img: 2
     - name: Sylvie RAY
       quote: "A l'écoute, avec un vrai suivi des interventions et un travail de qualité. Je recommande en toute confiance."
-      job: Cliente AC RENOVATION
+      job: Cliente CASTOR COUVERTURE
       img: 1
   section5:
     title: Intervention rapide. Devis gratuit pour vos travaux de couverture, toiture, charpente, zinguerie et isolation.
@@ -101,7 +101,7 @@ params:
     action: https://pwls83qfc4.execute-api.eu-west-1.amazonaws.com/default/send
     method: POST
   footer:
-    logo: ac-renovation-lastest.svg
+    logo: castor-couverture/castor-couverture-horizontal-light.svg
     socialmediatitle: Suivez-nous
     socialmedia:
     - link: "/index.html#contact"

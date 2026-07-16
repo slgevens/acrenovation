@@ -3,6 +3,10 @@
   <head>
     {{ partial "meta.html" . }}
     <title>{{ block "title" . }}{{ if .IsHome }}{{ .Site.Title }} | Couvreur Île-de-France{{ else }}{{ .Title }}{{ end }}{{ end }}</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logos/castor-couverture/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/logos/castor-couverture/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/logos/castor-couverture/favicon-16x16.png">
+    <link rel="manifest" href="/images/logos/castor-couverture/site.webmanifest">
     {{ partial "css.html" . }}
   </head>
   <body>
