@@ -40,6 +40,17 @@ La porte PVC vitrée apporte à la fois luminosité et sécurité à l'habitatio
 
 ---
 
+{{< rawhtml >}}
+<div style="display:flex;justify-content:center;margin:2rem 0;">
+  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@castor.couverture/video/7663559637546847508" data-video-id="7663559637546847508" style="max-width:605px;min-width:325px;">
+    <section></section>
+  </blockquote>
+  <script async src="https://www.tiktok.com/embed.js"></script>
+</div>
+{{< /rawhtml >}}
+
+---
+
 Vous avez un projet d'ouverture ou de pose de porte en Île-de-France ? Contactez-nous au [+33 7 59 20 00 34](tel:+33759200034), via [Whatsapp](https://wa.me/33759200034) ou par notre [formulaire de contact](/index.html#contact). Devis gratuit.
 
 ---
